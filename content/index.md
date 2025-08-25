@@ -7,7 +7,7 @@ Hey, it's Ernest here 👋. I am a CS Major @ NUS.
 
 Still figuring it out as I go. I'll be documenting my thoughts as well as the things I've learnt! 
 
->[!Kaboom] 
+>[!Note] Find this interesting?  
 >Reach out to me on telegram - @iamrolling 
 
 
