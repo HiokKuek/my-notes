@@ -41,5 +41,21 @@ Given n-bits, the range of value it can represent is: $[-(2^{n-1}),2^{n-1}-1]$
 > You can also extend the idea of complement on fractions! 
 
 
+### Excess Representation 
+- Allows range of values to be distributed evenly between the positive and negative values. 
+- E.g. Excess-4 representation on 3-bits number
+
+Actual value = Bit pattern (unsigned) - 4
+
+| 3-bit pattern | Unsigned value | Actual value (Excess-4) |
+| ------------- | -------------- | ----------------------- |
+| 000           | 0              | –4                      |
+| 001           | 1              | –3                      |
+| 010           | 2              | –2                      |
+| 011           | 3              | –1                      |
+| 100           | 4              | 0                       |
+| 101           | 5              | +1                      |
+| 110           | 6              | +2                      |
+| 111           | 7              | +3                      |
 
   
