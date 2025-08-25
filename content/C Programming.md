@@ -2,6 +2,7 @@
 title: C Programming Language
 draft: false
 tags:
+  - CS2100
 ---
 
 ### Arrays in C
