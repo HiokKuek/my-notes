@@ -54,3 +54,11 @@ tags:
     - They invest in employees’ well-being, not just outcomes.
     - They create a ripple effect where positive energy spreads throughout the organization.
 5. HBR Research: [How One Bad Employee can Corrupt a Whole Team](https://coursemology.org/courses/3093/materials/folders/104629/files/173587) (Workbin Reading)
+
+
+**Takeaways**
+- sales matter, execution matters, people matter
+	- if you hire the best people, you don't have to manage them 
+- Should engineering managers be technical? 
+	- Prof ben: yes
+	- Caleb Chao: management is a people problem - make sure ppl are well aligned, ensure that there is a steady supply of meaningful tasks, remove ppl who are no good for them by finding landing spots for them. 
