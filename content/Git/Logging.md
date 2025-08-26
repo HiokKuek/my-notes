@@ -13,8 +13,9 @@ tags:
 
 >[!tip] Create Aliases! 
 >go to bashrc or zshrc and create aliases for the commands above e.g. 
->```
+
+```
 alias gs='git status'
 alias glod='git log --oneline --graph --decorate'
 alias gloda='git log --oneline --decorate --graph --all'
->```
+```
