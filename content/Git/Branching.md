@@ -30,6 +30,8 @@ merge branch
 ```
 git merge <branch-name>
 
+git merge --no-ff <branch-name> -m 'commit message'
+
 ```
 - if the branch you are merging has not diverged, 
 	- git moves the branch pointer forward to include all the new commits 
