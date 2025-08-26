@@ -15,10 +15,12 @@ git checkout feature1
 or, do it in one step
 ```
 git checkout -b feature1
+
 ```
 
 ```
 git switch -c feature1
+
 ```
 
 >[!warning] Avoid rookie mistake
@@ -27,6 +29,7 @@ git switch -c feature1
 merge branch
 ```
 git merge <branch-name>
+
 ```
 - if the branch you are merging has not diverged, 
 	- git moves the branch pointer forward to include all the new commits 
@@ -38,6 +41,7 @@ Squash Merge
 - won't preserve the full history of the branch being merged 
 ```
 git merge --squash <branch-name>
+
 ```
 
 Resolve Merge Conflicts 
@@ -56,12 +60,14 @@ red
 Renaming branches
 ```
 git branch -m <current-name> <new-name>
+
 ```
 
 Deleting branches 
 - you may want to delete branches that you have merged
 ```
 git branch -d <branch-name>
+
 ```
 
 
@@ -73,25 +79,30 @@ Rebasing
 - will rewrite the history of the current branch
 ```
 git rebase <branch-name> 
+
 ```
 
 Cherry-picking 
 - "cherry pick" specific commits from a different branch onto the current branch
 ```
 git cherry-pick <commit-sha>
+
 ```
 
 Push branch to remote 
 ```
 git push <remote> -u <branch>
+
 ```
 
 Pull/ create local copy of remote branch
 ```
 git switch -c <branch> <remote-branch>
+
 ```
 
 Delete Remote Branch
 ```
 git push origin --delete <remote-branch>
+
 ```
