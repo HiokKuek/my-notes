@@ -1,0 +1,35 @@
+---
+title: Python Syntax
+draft: false
+tags:
+---
+ **Set**
+```python
+seen = set() 
+seen.add(1)
+seen.remove(1)
+```
+- can compare equality of two sets with `==`
+
+Dictionary
+```python
+my_dict = {}
+my_dict["key"] = "value"
+
+# to force a default value 
+my_dict.get("key", "default value")
+
+#remove 
+my_dict.pop("key")
+```
+
+String 
+```python
+my_string = " my string " 
+
+# remove trailing whitespace
+my_string.strip()
+
+# convert into array based on space
+my_string.split(" ")
+```
