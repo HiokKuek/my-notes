@@ -3,7 +3,7 @@ title: Branching
 draft: false
 tags:
 ---
- Useful git shortcuts! 
+ Ss
 
 ### Branching
 - Git creates a branch named `master` by default
@@ -43,7 +43,6 @@ Squash Merge
 - won't preserve the full history of the branch being merged 
 ```
 git merge --squash <branch-name>
-
 ```
 
 Resolve Merge Conflicts 
