@@ -1,5 +1,9 @@
-Type
-
+---
+title: Obsidian Stuff
+draft: true
+tags:
+---
+ 
 Purpose / appearance
 
 note
