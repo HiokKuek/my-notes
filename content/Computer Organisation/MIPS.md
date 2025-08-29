@@ -199,19 +199,11 @@ ori $t0, $t0, 0xF0F0
 - $t0: `1010 1010 1010 1010 1111 0000 1111 0000`
 
 ### Memory Organisation 
-![[Pasted image 20250829121948.png | right ]] Single-dimension array of memory locations 
+![[Pasted image 20250829121948.png]] 
+Single-dimension array of memory locations 
 - Given k-bit address, the address space is of size $2^k$ 
 	- e.g. address is 3-bits, it can have $2^3$, 8-bits address space
 - Address on the right contains one byte (8-bits) in every location/ address
-
-
-
-
-
-
-
-
-
 
 ### Memory Transfer Unit
 - Single byte or single word 
@@ -322,10 +314,35 @@ Label is an anchor in the assembly code to indicate point of interest.
 
 ### Writing IF Statements in MIPS 
 ![[Pasted image 20250829160152.png]]
+- try to invert the condition for a shorter code 
 
+### Writing loops in MIPS
+![[Pasted image 20250829160625.png]]
+![[Pasted image 20250829161103.png]]
 
+###  Inequalities 
+![[Pasted image 20250829161502.png]]
+- check if t0 == 1 afterwards to see if s1 is < s2
+- `slt` and `slti`
 
+### Array and Loop
+```c
+result = 0
+i = 0;
 
+while (i < 40) {
+	if (A[i] == 0) {
+		result++;
+	}
+	
+	i ++;
+}
+```
+
+Using Index
+![[Pasted image 20250829165328.png]]
+Using Pointers (Address)
+![[Pasted image 20250829165359.png]]
 
 
 
