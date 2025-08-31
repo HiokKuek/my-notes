@@ -1,6 +1,6 @@
 ---
 title: TPS Commercial Reseller Training
-draft: false
+draft: true
 tags:
 ---
 **Takeaways**
