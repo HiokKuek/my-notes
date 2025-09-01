@@ -8,6 +8,9 @@ tags:
 ###  Aarhus Uni  (Denmark) (6 vacancies) 
 	id: E0000001062
 	25-30 ECTS
+Semester 1 (Authmn Semester)
+ Classes: late August - late January 
+ Exam Period: mid-december to late january
 Course Mappings: 
 - CS3230 Design and Analysis of Algorithm (10 ECTS)
 - CS3244 Machine Learning (5ECTS/ 10ECTS)
@@ -32,13 +35,14 @@ Link: https://nus.edu.sg/gro/docs/default-source/prog/sep/pu/ee/sep_estonia_tall
 	id: E0000000569
 	min workload: 30 ECTS
 	max workloddad: 37.5 ECTS
-- CS3230 Design and Analysis of Algorithm (5ECTS)
+- CS3230 Design and Analysis of Algorithm (5ECTS) --> Algorithmns and Data Structures III in spring
 - CS2109S Introduction to AI and Machine Learning (5ECTS)
 - CS2105 Introduction to Computer Network(5ECTS) (Do in Y2S2)
 - CS3219 Software Engineering Principle (5ECTS)
 - CS3103 Computer Networks Practice (5ECTS)
 - CS4222 Wireless Networking (5ECTS)
 - CS3244 Machine Learning (5ECTS)
+- **CS3210** Parallel Computing
 	**Note:**
 	- Most courses are taught in swedish -> check properly to see if can map courses over! 
 Link: https://nus.edu.sg/gro/docs/default-source/prog/sep/pu/se/sep_sweden_uppsala_university.pdf
@@ -73,12 +77,11 @@ Link: E0000001439
 
 Course Mapping: 
 - CS3230 Design and Analysis of Algorithm (3mc)
-- CS3106 Introduction to Operating Sys (3mc)
+- CS2106 Introduction to Operating Sys (3mc)
 - CS3213 Foundations of Software Engineering (3mc)
 - CS3217 Software Engineering on Modern Application Platforms (3mc)
 - CS4211 Formal Methods for Software Engineering (3mc)
 
 Link: https://nus.edu.sg/gro/docs/default-source/prog/sep/pu/us/sep_usa_university_of_north_carolina_at_chapel_hill.pdf
 
-![[SEP_Study_Plan_Template.docx]]
-![[sep_location.pdf]]
+![[SEP_Study_Plan_Template.docx]] ![[sep_location.pdf]]

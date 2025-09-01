@@ -1,5 +1,5 @@
 ---
-title: MIPS
+title: MIPS (Part I)
 draft: false
 tags:
   - "#CS2100"
