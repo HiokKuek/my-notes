@@ -33,3 +33,12 @@ my_string.strip()
 # convert into array based on space
 my_string.split(" ")
 ```
+
+Python List as stacks
+```python
+my_stack = []
+my_stack.append(10) # [10]
+my_stack.append(20) #[10, 20]
+
+print(my_stack.pop()) # 20 (last element added into stack)
+```

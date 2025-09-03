@@ -80,7 +80,7 @@ add $s0, $s1, $s2
 ```
 **Subtraction**
 ```asm
-add $s0, $s1, $s2
+sub $s0, $s1, $s2
 ```
 **Complex C Code -> MIPS**
 ```c
