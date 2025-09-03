@@ -11,7 +11,7 @@ Moving forward, I hope to document the things I've learnt, as well as my experie
 
 Feel free to reach out to me through telegram: `@iamrolling` 😀
 
->[!quote] quote that inspired me recently
+>[!quote] 
 > Until you make the unconscious conscious, it will direct your life and you will call it fate 
 >
 > -- *Carl Jung*
