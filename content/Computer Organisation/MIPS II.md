@@ -33,6 +33,7 @@ Extension of [[MIPS]]
 	- **0 for all R-Format Instructions**
 - rs: register source
 - rt: target register (register that contains the second operand) 
+	- `srl`, `sll` will use this field to store it's operands 
 - rd: register destination
 - shamt: shift amt (for shift operations)
 	- set to 0 in all non-shift instructions
@@ -155,3 +156,8 @@ last 2 bit: 00
 ![[Pasted image 20250901203806.png]]
 - Branches use PC-relative addressing 
 - Jumps use pseudo-direct addressing
+
+### Notes
+Instruction encoding uses register numbers. See [[MIPS#Registers]]
+$s0 -> 16
+$s1 -> 17
