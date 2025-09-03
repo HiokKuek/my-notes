@@ -96,3 +96,46 @@ Specify operations in an instruction set. Find out the frequently used instructi
 - Out of the x-bits, need to divide the bits according to the instruction 
 	- E.g. Look at [[MIPS II#R-Format]]
 #### Encoding the Instruction Set 
+**Encoding Choices**
+1. Variable
+2. Fixed 
+	- Problem: How to fix multiple sets for instruction types into the same number of bits  
+	- *Expanding opcode scheme:*
+		- expand the number of bits for the opcode for different types of instruction so that you don't waste the extra bits 
+		- e.g. two instructions type A and type B.
+			- type A has 6 bits reserved for op code
+			- type B has 11 bits reserved for opcode 
+			- The number of different opcode for A is $2^6 - 1$ because you reserve the last value, i.e. `111 111` for type B
+			- Type B's opcode will be prefixed with `111 111`
+			- This mean that type B will have $2^5$ different opcode
+			- Total number of instructions = `2^6 - 1 + 2^5`
+		- To maximise the number of instructions, 
+			- Minimise the instructions that Type-A have. 
+			- (fix 000 000 for Type-A assuming Type-A has 6 bits for opcode)
+			- i.e. if type A has n bits and type B has n + m bits 
+			- fix 1 instruction for Type A
+			- you can get $(2^n - 1) * 2^m$ instructions for Type B
+3. Hybrid 
+
+**Design an expanding opcode for the following to be encoded in a 36-bit instruction format. An address takes up 15 bits and a register number 3 bits.** 
+- A: 7 instructions with two addresses and one register number. 
+	- 3 op, 15a1, 15a2, 3register
+- B: 500 instructions with one address and one register number. 
+	- 18 op, 15a1, 3reg
+- C: 50 instructions with no address or register. 
+	- 18 op rest is unused
+1) Start with the most restrictive case
+	- A requires op code `000...110`
+		- op code: 000 -> 110
+	- B would require $log_{2}500 = 8.xx$ 9 bits
+		- first 3 bits: 111
+		- next 9 bits: to determine instruction
+		- remaining 6 bits: `000 000`
+	- C
+		- first 3bits: 111
+		- next 9 bits: `1111 1111 1`
+		- next 6 bits: 000 001 -> 110010 (50 numbers)
+
+
+
+
