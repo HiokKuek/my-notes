@@ -17,6 +17,7 @@ Graphical notation to describe various aspects of a software system
 	- `-` : private
 	- `#` : protected
 	- `~` : package private
+	- no visibility means unknown
 - underline attributes/ operations to denote class-level attributes/ methods
 - Triangle and a line to represent inheritance
 - ![[Pasted image 20250902125806.png]]
@@ -51,6 +52,7 @@ Graphical notation to describe various aspects of a software system
 	- `1` : _compulsory_, must be linked to one object at all times.
 	- `*` : can be linked to 0 or more objects.
 	- `n..m` : the number of linked objects must be within `n` to `m` inclusive e.g., `2..5`, `1..*` (one or more), `*..5` (up to five)
+	- no multiplicity means unknown 
 	
 - can also indicate roles played by the classes in the association
 ![[Pasted image 20250902105352.png]]
