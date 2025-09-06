@@ -39,6 +39,7 @@ Python List as stacks
 my_stack = []
 my_stack.append(10) # [10]
 my_stack.append(20) #[10, 20]
+my_stack[-1] # look at the last element of the stack 
 
 print(my_stack.pop()) # 20 (last element added into stack)
 ```
@@ -78,6 +79,48 @@ print(char_counts)
 - `set`: New keys will have an empty set `{}` as their default value.
 - `str`: New keys will have an empty string `""` as their default value.
 
-Destructring 
+f string
+```python
+name = "Alice"
+age = 30
+message = f"Hello, {name}. You are {age} years old."
+print(message)
+# Output: Hello, Alice. You are 30 years old.
 
-Fstring
+result = f"The sum of 5 and 10 is {5 + 10}."
+print(result)
+# Output: The sum of 5 and 10 is 15.
+
+price = 123.45678
+formatted_price = f"The price is {price:.2f}."  # Format to 2 decimal places
+print(formatted_price)
+# Output: The price is 123.46.
+
+large_number = 1234567
+formatted_number = f"Value: {large_number:,}" # Add comma as thousands separator
+print(formatted_number)
+# Output: Value: 1,234,567
+```
+
+Assert 
+```python 
+# assert condition, message
+
+def add(a, b):
+	return a + b 
+
+assert add(1, 1) == 2, "expected 2 but got something else"
+```
+-  if condition evaluates to `False`, an `AssertionError` is raised
+- `message` is optional but provides additional information about the assertion if it fails 
+
+
+tricks 
+```python 
+
+heights = [10, 10, 10, 10]
+
+for i, h in enumerate (heights):
+	# i represents the index
+	# h represents the height at each index
+```
