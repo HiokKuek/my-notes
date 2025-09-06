@@ -29,7 +29,7 @@ When a URL is entered into the browser, the first task is to resolve the domain 
 2. Operating System Cache
 3. Router and ISP Cache
 
-If caching fails, the operating system will query a recursive DNS resolver which is configure in the network settings and is often provided by the Internet Service Provider (ISP) or a third-party service. 
+If caching fails, the operating system will query a recursive DNS resolver which is configured in the network settings and is often provided by the Internet Service Provider (ISP) or a third-party service. 
 
 **Recursive DNS Resolver** e.g. `example.com`
 1. Root DNS Server
@@ -55,7 +55,7 @@ With the IP address, browser can now initiate a connection to the web server hos
 	- contains the server's own SYN request 
 3. ACK 
 	- The browser, upon receiving SYN-ACK, sends back an ACK packet. 
-	- Final step acknowledges the serve's response 
+	- Final step acknowledges the server's response 
 	- Connection is established
 	- Ready for data transmission! 
 
