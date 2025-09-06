@@ -10,7 +10,7 @@ tags:
 ### Universal Resource Locator (URL)
 Directs your browser exactly where to go and what to fetch from the internet. 
 
-Let's dissect sthe url:  `http://example.com/products/view/item12345.html`
+Let's dissect the url:  `http://example.com/products/view/item12345.html`
 1. `http`: scheme
 	- specifies the protocol the browser uses to access the resource
 	- `https`means to secure the connection by encrypting the data for secure transmission
