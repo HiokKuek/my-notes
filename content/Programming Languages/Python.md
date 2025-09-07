@@ -44,6 +44,32 @@ my_stack[-1] # look at the last element of the stack
 print(my_stack.pop()) # 20 (last element added into stack)
 ```
 
+Double-ended queue in python 
+```python
+my_queue = collections.deque
+
+my_queue.append(10) # Appends 10 to the right of the queue
+my_queue.appendleft(20) # Appends 20 to the left of the queue
+# [20, 10]
+
+my_queue.pop() # pops from the right of the queue
+# [20]
+
+my_queue.append(10)
+# [10, 20]
+
+my_queue.popleft() # pops from the left of the queue
+# [10]
+
+my_queue.append(10)
+# [10, 20]
+
+# Accessing the queue
+print(my_queue[0]) # 10
+print(my_queue[-1]) # 20
+
+```
+
 List Comprehension
 ```python
 [expression for item in iterable if condition]
