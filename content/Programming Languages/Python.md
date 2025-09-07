@@ -46,7 +46,7 @@ print(my_stack.pop()) # 20 (last element added into stack)
 
 Double-ended queue in python 
 ```python
-my_queue = collections.deque
+my_queue = collections.deque([])
 
 my_queue.append(10) # Appends 10 to the right of the queue
 my_queue.appendleft(20) # Appends 20 to the left of the queue
