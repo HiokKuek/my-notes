@@ -225,7 +225,7 @@ MIPS = load-store register architecture
 
 **Load Word Memory Instruction** 
 ```
-ls $t0, 4($s0)
+lw $t0, 4($s0)
 ```
 - `$t0`is the destination, `4` is displacement, `$s0` is source 
 ![[Pasted image 20250829141137.png]]
