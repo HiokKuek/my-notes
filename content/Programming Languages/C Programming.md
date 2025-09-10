@@ -5,7 +5,7 @@ tags:
   - CS2100
 ---
 
-### Arrays in C
+# Arrays in C
 Arrays are homogeneous - their elements are all of the same type
 Declaration: `int c[30]`
 - occupy contiguous memory locations and are accessed through indexing 
@@ -49,7 +49,15 @@ int sumArray(int *arr, int size) {
 - Note that typically when functions are called, values are copied over in C. 
 - However, since array is a pointer, it means that a function can always modify the content of the array it receives. (whether intended)
 
-###  Strings in C
+## Calculate Size
+```c
+int arr = {1, 2, 3, 4, 5};
+int size = sizeof(arr) / sizeof(arr[0]);
+```
+- `sizeof()` returns the size, in bytes, of a variable, data type or expression
+
+
+#  Strings in C
 - is an array of characters with a '\0' (null character at the back)
 - `#include <string.h>`for functions to manipulate strings
 **Initialising a String**
@@ -65,7 +73,22 @@ fgets(str, size, stdin)
 # reads until white space
 scanf("%s", str);
 ```
+## Calculate length 
+```c
+#include <stdio.h>
+#include <string.h> // Include the string.h header
 
+int main() {
+    char myString[] = "Hello"; 
+    size_t length = strlen(myString); 
+
+    printf("The string is: %s\n", myString);
+    printf("The length of the string is: %zu\n", length); 
+
+    return 0;
+}
+```
+- use `strlen` from `<string.h>`
 
 ### Pointers
 - You may refer to the address of a variable by using the address operator `&`
@@ -93,7 +116,7 @@ Required for storing multi-dimensional array in memory
 	- store column by column by column
 ![[Pasted image 20250831161230.png]]
 
-### Structures 
+# Structures 
 Allow grouping of heterogeneous members
 declaration of structure type
 ```c
@@ -128,7 +151,7 @@ void change_name_and_age(player_t *player_ptr) {
 Since syntax like `(*player_ptr).name` appear very often, an alternative syntax created for it is the `->` operator. I.e. `player_ptr->name`
 
 
-### Misc
+# Misc
 ```c
 enum Heat {
 	LOW,
@@ -137,3 +160,10 @@ enum Heat {
 }
 ```
 - represents a group of integer constants
+
+## Types
+- `size_t`: unsigned integer 
+
+## Identifiers 
+- `%zu`: `z` to specify that argument is of type `size_t`, `u`to indicate that argument should be printed as an unsigned decimal integer.
+
