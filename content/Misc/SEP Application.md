@@ -3,7 +3,7 @@ title: How to publish Obsidian notes with Quartz on GitHub Pages
 draft: true
 tags:
 ---
-### Universities to Consider
+
 
 ###  Aarhus Uni  (Denmark) (6 vacancies) 
 	id: E0000001062

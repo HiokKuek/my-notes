@@ -119,10 +119,11 @@ New register: Program Counter (PC)
 	- jumps are to word aligned addresses --> last 2 bits are always 00
 	- therefore, we can specify 28bits of 32-bit address
 - We cannot jump to anywhere in memory, but it should be sufficient **most of the time**
-Summary: To build back 32 bits: 
-First 4 bits: Take MSB of Programme Counter
-Next 26 bits: As specified in target address
-last 2 bit: 00
+
+ **Summary: To build back 32 bits:** 
+- First 4 bits: Take MSB of PC + 4
+- Next 26 bits: As specified in target address
+- last 2 bit: 00
 #### Example
 ![[Pasted image 20250901201000.png]]
 
