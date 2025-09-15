@@ -3,7 +3,27 @@ title: Python Syntax
 draft: false
 tags:
 ---
- **Set**
+
+### lists
+- Python lists are mutable
+- This is problematic when you are passing lists as a argument in a function 
+```python
+my_list = []
+new_list = my_list # creates a pointer to my_list
+
+my_list.append(2)
+print(new_list) # [2]
+
+copied_list = my_list.copy() # creates a new list object in memory
+
+my_list.append(3)
+print(my_list) # [2, 3]
+print(new_list) # [2, 3]
+print(copied_list) # [2] 
+```
+
+
+### **Set**
 ```python
 seen = set() 
 seen.add(1)
@@ -11,7 +31,7 @@ seen.remove(1)
 ```
 - can compare equality of two sets with `==`
 
-Dictionary
+### Dictionary
 ```python
 my_dict = {}
 my_dict["key"] = "value"
@@ -23,7 +43,7 @@ my_dict.get("key", "default value")
 my_dict.pop("key")
 ```
 
-String 
+### String 
 ```python
 my_string = " my string " 
 
@@ -34,7 +54,7 @@ my_string.strip()
 my_string.split(" ")
 ```
 
-Python List as stacks
+### Python List as stacks
 ```python
 my_stack = []
 my_stack.append(10) # [10]
@@ -44,7 +64,7 @@ my_stack[-1] # look at the last element of the stack
 print(my_stack.pop()) # 20 (last element added into stack)
 ```
 
-Double-ended queue in python 
+### Double-ended queue in python 
 ```python
 my_queue = collections.deque([])
 
@@ -70,7 +90,7 @@ print(my_queue[-1]) # 20
 
 ```
 
-List Comprehension
+### List Comprehension
 ```python
 [expression for item in iterable if condition]
 
@@ -80,7 +100,7 @@ even_numbers = [num for num in numbers if numbers % 2 == 0]
 
 ```
 
-DefaultDicts
+### DefaultDicts
 ```python
 from collections import defaultdict 
 
@@ -105,7 +125,7 @@ print(char_counts)
 - `set`: New keys will have an empty set `{}` as their default value.
 - `str`: New keys will have an empty string `""` as their default value.
 
-f string
+### f string
 ```python
 name = "Alice"
 age = 30
@@ -128,7 +148,7 @@ print(formatted_number)
 # Output: Value: 1,234,567
 ```
 
-Assert 
+### Assert 
 ```python 
 # assert condition, message
 
@@ -141,7 +161,7 @@ assert add(1, 1) == 2, "expected 2 but got something else"
 - `message` is optional but provides additional information about the assertion if it fails 
 
 
-tricks 
+### tricks 
 ```python 
 
 heights = [10, 10, 10, 10]
