@@ -4,7 +4,7 @@ draft: false
 tags:
   - CS2100
 ---
- Study how signals are generated in [[The Processor_Datapath]]
+ S
  ![[Pasted image 20250915163214.png]]
 # Identified Control Signals
 
@@ -82,4 +82,27 @@ Select second operand for the ALU
 ![[Pasted image 20250915203922.png]]
 >[!info]
 > `subtract` is achieved using $A + B' + 1$ since $B' + 1$ is 2s complement $-B$
+
+## Generating `ALUcontrol`
+### Intermediate Signal: `ALUop`
+![[Pasted image 20250916165350.png]]
+1. Use Opcode to generate 2-bit `ALUop` signal 
+	- Represents the classification of the instructions
+2. Use `ALUop` signal (2-bit) and Function Code (6-bit) field to generate 4-bit `ALUcontrol` signal
+
+| Instruction Type | ALUop |
+| ---------------- | ----- |
+| lw / sw          | 00    |
+| beq              | 01    |
+| R-type           | 10    |
+![[Pasted image 20250916165836.png]]
+
+**ALUcontrol**
+- bit 3 = 0
+- bit 2 = ALUop0 == 1 or (F5 == 1 and F1 == 1)
+
+![[Pasted image 20250916170546.png]]
+
+#  Summary of the Combination Circuit
+![[Pasted image 20250916222658.png]]
 # Instruction Execution
