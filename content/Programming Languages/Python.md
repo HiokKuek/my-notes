@@ -20,6 +20,9 @@ my_list.append(3)
 print(my_list) # [2, 3]
 print(new_list) # [2, 3]
 print(copied_list) # [2] 
+
+# sort in reverse order
+my_list.sort(reverse=True)
 ```
 
 
