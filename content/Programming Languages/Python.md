@@ -173,3 +173,5 @@ for i, h in enumerate (heights):
 	# i represents the index
 	# h represents the height at each index
 ```
+
+- `nonlocal` keyword is used within nested functions to explicitly declare that a variable refers to a variable in the nearest enclosing scope that is not the global scope
