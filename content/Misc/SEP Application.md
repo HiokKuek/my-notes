@@ -83,5 +83,5 @@ Course Mapping:
 - CS4211 Formal Methods for Software Engineering (3mc)
 
 Link: https://nus.edu.sg/gro/docs/default-source/prog/sep/pu/us/sep_usa_university_of_north_carolina_at_chapel_hill.pdf
-
+![[SoC AY2627 SEP Round 1 Places V2.pdf]]
 ![[SEP_Study_Plan_Template.docx]] ![[sep_location.pdf]]
