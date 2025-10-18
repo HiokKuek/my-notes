@@ -5,6 +5,10 @@ tags:
 ---
  Article Link: https://www.investopedia.com/articles/active-trading/042114/overbought-or-oversold-use-relative-strength-index-find-out.asp 
 
+# Introduction
+Helps traders identify overbought and oversold conditions and generates potential buy and sell signals
+
+
 - RSI < 30: oversold 
 	- Price has fallen too far and too fast
 - RSI > 70: overbought
@@ -28,4 +32,3 @@ Where RS = Relative Strength
 - RSI makes a higher low
 - Sellers are still pushing the price down, but their strength is fading. The downside momentum is weaker than before
 
-MACD
