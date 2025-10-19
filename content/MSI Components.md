@@ -58,4 +58,28 @@ Encoding is the converse of decoding
 ![[Pasted image 20251017180740.png]]
 
 # Demultiplexers 
+- given an input line and a set of selection lines, a demultiplexer directs data from the input to one selected output line. 
+- e.g. 1-to-4-demultiplexer
+- ![[Pasted image 20251019113959.png]]
+
+> [!tip]
+>  Internally, a demultiplexer circuit is actually **identical** to a decoder with enable! 
+
+![[Pasted image 20251019114200.png]]
+
 # Multiplexers
+- Also known as a *data selector!*
+- A device that has: 
+	- a number of input lines 
+	- a number of selection lines 
+	- one output line 
+- It steers one of $2^n$ inputs to a single output line, using n selection lines. Also known as a data selector.
+- e.g. `4-to-1-multiplexer`
+- ![[Pasted image 20251019114425.png]]
+
+How to implement a `4-to-1-multiplexer`?
+![[Pasted image 20251019114743.png]]
+
+### Standard MSI Multiplexer 
+`8-to-1 multiplexer`
+![[Pasted image 20251019115600.png]]
