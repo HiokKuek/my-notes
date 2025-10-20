@@ -82,4 +82,3 @@ More complex circuits can also be built using block-level method.
 
 ### 4-bit parallel Adder
 ![[Pasted image 20251013102417.png]] 
-
