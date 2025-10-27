@@ -21,6 +21,24 @@ tags:
 ### Shareholder's Equity
 - is a "company's net worth", calculated as `total assets - total liabilities`, representing the amount that would be distributed to the shareholders if the company were to be liquidated
 
+### Liabilities 
+- Company's financial obligations and debts owed to others 
+- e.g.  loans, mortgages, and unpaid bills 
+- Three types 
+	- Current liabilities 
+		- short-term obligations (settled within 1 year)
+		- e.g. accounts payable
+	- Non-current liabilities 
+		- financial obligations due after one year
+		- e.g. long-term loans, mortgages
+	- Contingent liabilities
+		- potential obligations that depend on the outcome of a future event
+		- e.g. pending lawsuit
+
+> [!warning]
+> liabilities is not the same as expenses 
+> - expenses are the costs of running the business
+
 # Statement of Cash Flow 
 - Shows cash from operations, cash from investing and cash rom financing
 

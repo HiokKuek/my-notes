@@ -101,4 +101,62 @@ Single input version of the J-K flip-flop, formed by tying both inputs together
 - Flip-flop in normal operation mode when both PRE and CLR are LOW
 ![[Pasted image 20251020171130.png]]
 # Synchronous Sequential Circuit 
+### Flip-flop characteristic tables (Summarise) 
+![[Pasted image 20251024131421.png]] 
+
+### Analysis 
+- Given a sequential circuit diagram, analyse behaviour by deriving
+	- state table 
+	- state diagram
+- State Equations 
+- Output Functions 
+- We use `A(t)` and `A(t+1)` or simply `A` and `A+` to represent the present state and the next state, respectively, of a flip-flop represented by A 
+![[Pasted image 20251024132507.png]]
+
+![[Pasted image 20251024132951.png]]
+- from state table, we draw the state diagram
+	- state is denoted by a circle 
+	- Each arrow denotes a transition of the sequential circuit (a row in state table)
+	- A label of the form a/b is attached to each arrow where a denotes the inputs while b denotes the outputs of the circuit in that transition 
+	- m flip-flops -> up to $2^m$ states
+
+![[Pasted image 20251024133806.png]]
+
+# Excitation Tables
+- given the required transition from present state to next state, determine the flip-flop input(s)
+- ![[Pasted image 20251025105012.png]]
+
+
 # Memory
+### Definitions 
+- 1 byte = 8 bit
+- 1 word
+	- multiple of bytes 
+	- a unit of transfer between main memory and register
+	- usually the size of the register
+- 1 KB = 2^10 bytes
+- 1 MB = 2^20 bytes
+- 1 GB = 2^30 bytes
+- 1 TB = 2^40 bytes
+- Desirable properties 
+	- fast access 
+	- large capacity 
+	- cheap 
+	- non-volatile
+
+### Memory Hierarchy 
+![[Pasted image 20251026114740.png]]
+
+### Data transfer 
+![[Pasted image 20251026114946.png]]
+
+### Memory Unit 
+![[Pasted image 20251026122650.png]]
+
+### Read/ Write Operations 
+![[Pasted image 20251026122706.png]]
+
+### Memory Cell
+![[Pasted image 20251026122926.png]]
+
+### Memory Arrays 
