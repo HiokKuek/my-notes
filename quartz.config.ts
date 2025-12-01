@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "ees area 🌳",
+    pageTitle: "Hiok's 🌳",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "hiokkuek.github.io/my-notes",
+    baseUrl: "notes.hiok.dev",
     ignorePatterns: ["private", "templates", ".obsidian", "**/Templates/**", "**/Scripts/**"],
     defaultDateType: "modified",
     theme: {
