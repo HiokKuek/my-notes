@@ -13,7 +13,7 @@ export default ((opts?: Options) => {
     const links = opts?.links ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <p> Written with ❤️ Tan Hiok Kuek (Ernest) © {year}</p>
+        <p> Written by Ernest! © {year}</p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
