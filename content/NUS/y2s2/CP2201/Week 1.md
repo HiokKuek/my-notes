@@ -30,6 +30,10 @@ Email: vng@nus.edu.sg
 	- amazon: pioneered use of robotics and automation in fulfilment centers 
 - product system
 	- apple: strong ecosystem of apps and connected devices
+- service: enhance customer support experience
+	- salesforce: saas model over on-premise installations
+- channel:
+	- warby parker: home try-on program for glasses purchased online
 
 ### Book: Unlocking the Customer Value Chain (CVC)
 - Startups don't steal customers from incumbents, they steal activities
