@@ -9,3 +9,7 @@ It is my first day back on leetcode. I have done / seen most of the questions on
 # Day 3 (13/01)
 Started off with little confidence, I realised that the more questions I do, the more I become. In the past, I tend to want to immediately watch neetcode after seeing a problem that I am intimidated by. I have realised that doing that may have been impeding my progress as well as my confidence. Doing so many easy problems so far is quite helpful in building my confidence back up. 
 
+
+# Day 4 (14/01)
+I feel a little sick today, nose is blocked and my brain is a little fogged up. My confidence for tree related problems is mid. I took a surprising amount of time to reverse a linked list even though I have done it many times before. Good thing is that I eventually managed to figure out how to do it myself but I twas starting to get a little frustrated at myself. 
+
