@@ -11,5 +11,7 @@ Started off with little confidence, I realised that the more questions I do, the
 
 
 # Day 4 (14/01)
-I feel a little sick today, nose is blocked and my brain is a little fogged up. My confidence for tree related problems is mid. I took a surprising amount of time to reverse a linked list even though I have done it many times before. Good thing is that I eventually managed to figure out how to do it myself but I twas starting to get a little frustrated at myself. 
+I feel a little sick today, nose is blocked and my brain is a little fogged up. My confidence for tree related problems is mid. I took a surprising amount of time to reverse a linked list even though I have done it many times before. Good thing is that I eventually managed to figure out how to do it myself but I was starting to get a little frustrated at myself. 
 
+# Day 5 (15/01)
+Still a little sick. Good thing is that I managed to complete Maximum Depth of Binary Tree (I was stuck on this yesterday) by myself today without any help. Touched the first few Medium problems today. Feeling more confident about easy problems 😄 Honestly don't know if this is considered as progress because I have seen most of these questions before. 
