@@ -19,7 +19,13 @@ tags:
 
 
 # To Revise: 
+### Graphs
 Topological Sort: postorder DFS/ BFS with Kahn's Algorithm 
 Dijkstra's Algorithm (for SSP)
 Bellman-Ford (for SSP)
 Floyd-warhsall (for all-pairs shortest path)
+
+### Trees
+Prim's Algorithm
+Kruskal's Algorithm
+Boruvka's Algorithm 
