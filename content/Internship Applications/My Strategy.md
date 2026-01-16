@@ -16,3 +16,10 @@ tags:
 	- I will prioritise leetcode over school work
 	- Leetcode will be tracked using grind 75 (see [[Resources]])
 	- I won't use AI at all, will use python cheat sheet found in [[Resources]]
+
+
+# To Revise: 
+Topological Sort: postorder DFS/ BFS with Kahn's Algorithm 
+Dijkstra's Algorithm (for SSP)
+Bellman-Ford (for SSP)
+Floyd-warhsall (for all-pairs shortest path)
