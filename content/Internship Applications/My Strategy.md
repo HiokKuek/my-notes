@@ -28,4 +28,4 @@ Floyd-warhsall (for all-pairs shortest path)
 ### Trees
 Prim's Algorithm
 Kruskal's Algorithm
-Boruvka's Algorithm 
+Boruvka's Algorithm
