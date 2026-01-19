@@ -17,3 +17,6 @@ Still a little sick. Good thing is that I managed to complete Maximum Depth of B
 
 # Day 5 (16/01)
 First day of medium problems 🫠 Very slow day, only did 2 questions but manage to revise some new things. I felt lowkey frustrated knowing that I need so much time (> 1 hr) to attempt the questions / watch videos on how to do it. However, I think some of the concepts I covered agin today are quite new to me because I didn't give myself the chance to properly learn it back in 2040s. For example I exposed myself to the heap data structure! O(n) to heapify, O(log(n)) for push and pop operations. Python has an in-built min-heap that I can use. 
+
+# Day 6 (18/01) 
+Skipped yesterday because of HnR. I think I will not make leetcoding compulsory on weekends so that I don't stress myself out. Did a bunch of medium problems today that I have seen before. Could solve a lot of them, my mind is kind of distracted today and I had to force myself to focus on the problems. 
