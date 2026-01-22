@@ -13,3 +13,7 @@ Alot more energetic today because I slept properly! I think my body needs ~8hr o
 
 # Day 3 (21/01)
 Did not watch any neetcode today! Gave myself time to think of solutions. Questions were generally about BFS/ DFS and I think I am fairly confident in those questions. TBH I always feel a little drowsy before I begin doing leetcode questions, but once I get into the rhythm it feels okay. 
+
+
+# Day 4 (22/01)
+Manged to do search in rotated sorted array (problem I was stuck on yesterday) by myself today without any help. My mind today is somewhere else, I couldn't focus. Today felt a little slow but I am glad I still managed to do the problems. 
