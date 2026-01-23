@@ -17,3 +17,7 @@ Did not watch any neetcode today! Gave myself time to think of solutions. Questi
 
 # Day 4 (22/01)
 Manged to do search in rotated sorted array (problem I was stuck on yesterday) by myself today without any help. My mind today is somewhere else, I couldn't focus. Today felt a little slow but I am glad I still managed to do the problems. 
+
+
+# Day 5 (23/01)
+Week is over 🥳 I have the tendency to rush into questions thinking I can figure out the code without having a proper understanding on how my entire solution will look like. I think this strategy would sometimes work for simpler problems, but for my solution in Lowest Common Ancestor of a Binary Tree, there were alot of base cases and it was hard to figure out on the spot how to account for those base cases. I think next time, I would want to be able to work out 80% of the solution on pen and paper before moving on. 
