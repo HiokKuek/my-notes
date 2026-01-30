@@ -14,4 +14,10 @@ Completed the question I was stuck on yesterday. I feel a little nervous because
 # Day 3 (28/01)
 Honestly don't feel like doing anything today. Glad that I at least got 1 question done :) 
 
+# Day 4 (29/01)
+Skipped - overslept 
+
+# Day 5 (30/01)
+Feels that I am back into the rhythm of doing leetcode. Writing down my thoughts on pen and paper very goated and actually helps me process my thoughts a lot better. For example, I could finally do the spiral matrix question without getting stuck on edge cases (even though i did get stuck for a short amount of time)!
+
 
