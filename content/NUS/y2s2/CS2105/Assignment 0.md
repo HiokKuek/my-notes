@@ -63,9 +63,7 @@ pos = byte.find(b"B") # returns the lowest index matching the string or -1
 
 byte.startWith("Size: ") # returns a boolean
 
-byte[start:end] # byte slicing similar to strings
-
-
+byte[start:end] # slicing is similar to strings
 ```
 
 
