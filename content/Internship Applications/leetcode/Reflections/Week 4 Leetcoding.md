@@ -1,6 +1,6 @@
 ---
 title: Week 4 Leetcoding
-draft: true
+draft: false
 tags:
 ---
 # Day 1 (02/02)
@@ -11,3 +11,9 @@ Way better, I feel awake. Revised some problems and managed to do 2 problems tha
 
 # Day 3 (04/02)
 Only did one question today and got quite frustrated because I got stuck on this question even though I have seen it before in the past. Brain clogged... 
+
+# Day 4 (05/02)
+Skipped. Had to prepare for TA 
+
+# Day 5 (06/02)
+Also only did one question today but it was a really hard question. Spent less than 1 hour today. I think I am slowing down? Okay but good thing is that I am still showing up. S
