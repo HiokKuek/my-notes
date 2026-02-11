@@ -9,3 +9,7 @@ Only did 1 question today: Task Scheduler. I came up with a solution that is gre
 
 # Day 2 (10/02)
 Similar comments to yesterday. I feel that I am rushing into coding without thinking about what each function would need and the abstractions that I should come up with to generalise the problem. It would be good if I become more vocal while coding. 
+
+
+# Day 3 (11/02)
+Happier day, seen two questions that I've done before. Mind is clear, could talk myself through the solutions and articulate the edge cases properly. 
