@@ -7,3 +7,7 @@ Note: Skipped week 6 due to personal reasons, skipped D1 for this week to prepar
 
 # Day 2 
 It's been a while since the last time I attempted leetcode. My brain is slower and not fired up. Happy to get one question in today 😄. Question I did today was one of the easier "Hard" question. I was being lazy and I didn't want to write down notes. 
+
+
+# Day 3 
+A better day compared to yesterday but still struggling. 
